@@ -1,0 +1,12 @@
+# Options for sync_remote_db
+
+# SSH configuration
+SSH_USER=USERNAME
+SSH_HOST=SERVER
+SSH_OPTS=""
+
+# All databases
+ALL_DATABASES="
+    DATABASE1
+    DATABASE2
+"

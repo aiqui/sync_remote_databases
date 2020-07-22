@@ -1,0 +1,6 @@
+dump_rds_database.config
+sync_remote_db_key
+sync_remote_db_key.pub
+sync_remote_db.config
+.idea
+*.iml

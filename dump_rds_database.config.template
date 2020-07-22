@@ -1,0 +1,18 @@
+# Configuration parameters
+
+# MySQL permissions
+mysql_user=USERNAME
+mysql_pw=PASSWORD
+mysql_host=HOSTNAME
+
+mysqldump_opts="--single-transaction"
+
+# Add individual hostnames here or SQL match
+n=0
+databases[$((++n))]="database-1"
+databases[$((++n))]="database-2"
+databases[$((++n))]="SQL: LIKE 'match%'"
+
+
+
+
