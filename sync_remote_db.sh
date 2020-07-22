@@ -27,7 +27,7 @@ function cleanUp {
     [ -f ${TMP_FILE} ] && rm ${TMP_FILE}
 }
 
-function catch-interupt {
+function catch-interrupt {
    cleanUp
    exit -1
 }
@@ -67,7 +67,7 @@ while getopts "d:l:p:oh" FLAG; do
 done
 
 # Catch CTRL-C for cleanup
-trap catch-interupt SIGINT
+trap catch-interrupt SIGINT
 
 # Get the remote database
 if [ "${database}" != "" ] ; then

@@ -1,5 +1,8 @@
 #!/bin/bash
 
+cd "$( dirname "${BASH_SOURCE[0]}" )"
+prog=$( basename "${0}" )
+
 CONFIG_FILE=dump_rds_database.config
 
 function errorMsg {
